@@ -1,8 +1,11 @@
 $(document).ready(function(){
     var count = 0;
     
-    $('#catImg').click(function(e){
+    $('.cat').click(function(e){
         count++;        
         $("#clicks").text(count);
     });
-});
+    
+    $("#catName1").text("Tay");
+    $("#catName2").text("Jessica");
+})
