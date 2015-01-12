@@ -6,3 +6,23 @@
 .cat .catName{
     padding: inherit;
 }
+
+.catsMain{
+    
+}
+
+.catsBar{
+    
+}
+
+.catsBar img{
+    width: 10%;
+    height: auto;    
+    
+}
+
+.catsMain img{
+    width: 30%;
+    height: auto;
+    align-content: center;
+}
