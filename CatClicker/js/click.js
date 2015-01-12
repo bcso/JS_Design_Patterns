@@ -1,6 +1,6 @@
-var num = 3;
+var num = 5;
 var nums = new Array(num);
-var names = ["Tay", "Jessica", "George"];
+var names = ["Tay", "Jessica", "George", "Yoona", "Tiffany"];
 var prev = 0;
 
 $(document).ready(function(){
@@ -15,7 +15,6 @@ $(document).ready(function(){
 })
 
 var addCats = function(nums){
-    
     
     for (var i = 0; i<nums.length; i++){
         $(".catsBar").append('<img src="res/meow' + i + '.jpg" id="catImg' + i + 'bar">');
